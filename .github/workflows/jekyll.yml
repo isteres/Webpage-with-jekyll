@@ -1,6 +1,5 @@
 name: Build and Deploy Jekyll Site
 
-# Definir los disparadores del workflow: en un push o pull request a la rama 'main'
 on:
   push:
     branches:
@@ -11,42 +10,35 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest  # Puedes cambiarlo por otro sistema operativo si lo prefieres
+    runs-on: ubuntu-latest
 
     steps:
-    # Paso 1: Checkout del código
     - name: Checkout code
-      uses: actions/checkout@v2  # Este paso descarga el código fuente de tu repositorio
+      uses: actions/checkout@v2
 
-    # Paso 2: Configuración de Ruby
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.7  # Usa Ruby 2.7 (compatible con Jekyll 4.x.x)
-        bundler: 2.2  # Especifica la versión de Bundler que deseas usar
+        ruby-version: 2.7
+        bundler: 2.2
 
-    # Paso 3: Instalar dependencias de Ruby
     - name: Install dependencies
       run: |
-        gem install bundler # Instalar bundler si no está disponible
-        bundle install  # Instalar todas las gemas definidas en el Gemfile
+        gem install bundler
+        bundle install
 
-    # Paso 4: Construir el sitio con Jekyll
     - name: Build Jekyll site
-      run: bundle exec jekyll build  # Construir el sitio Jekyll
+      run: bundle exec jekyll build
 
-    # Paso 5: Desplegar en GitHub Pages (si usas esta opción)
     - name: Deploy to GitHub Pages
       run: |
-        bundle exec jekyll deploy  # Desplegar el sitio generado a GitHub Pages
-      if: github.ref == 'refs/heads/main'  # Solo desplegar si el push es en la rama 'main'
+        bundle exec jekyll deploy
+      if: github.ref == 'refs/heads/main'
 
-    # Paso opcional: Subir artefactos de construcción si deseas almacenarlos
+    # Subir artefactos de construcción (actualizado a la versión v3)
     - name: Upload build artifact
       if: success()  # Solo subir artefactos si la construcción es exitosa
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3  # Usa la versión 3
       with:
         name: jekyll-build
-        path: _site  # Carpeta generada con los archivos del sitio
-
-
+        path: _site
