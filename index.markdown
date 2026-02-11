@@ -1,6 +1,5 @@
 ---
 layout: home
-title: "Bienvenido a mi página web"
 description: "Blog personal y portafolio de un estudiante del Doble Grado en Ingeniería Informática y Matemáticas."
 ---
 
