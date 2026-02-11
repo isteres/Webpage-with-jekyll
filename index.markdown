@@ -39,7 +39,7 @@ Escribo sobre temas como algoritmos, programación web, estructuras de datos y a
 Puedes encontrarme en mis redes y plataformas de desarrollo:
 
 - [GitHub](https://github.com/isteres)
-- [LinkedIn](www.linkedin.com/in/isaac-teres-espallargas-56bb93325)
+- [LinkedIn](https://www.linkedin.com/in/isaac-teres-espallargas-56bb93325/)
 
 ---
 
