@@ -1,44 +1,45 @@
 ---
 layout: home
 title: "Bienvenido a mi página web"
-description: "Este es un blog personal donde comparto mis proyectos, tutoriales y más."
+description: "Blog personal y portafolio de un estudiante del Doble Grado en Ingeniería Informática y Matemáticas."
 ---
 
 # ¡Hola, bienvenido a mi página!
 
-Soy [Tu Nombre](#) y este es mi espacio en línea donde comparto ideas, proyectos y todo lo relacionado con mi pasión por la tecnología, el diseño y la programación.
+Soy estudiante del **Doble Grado en Ingeniería Informática y Matemáticas** en la **Universidad de La Rioja**, y este es mi espacio en línea donde comparto ideas, proyectos y todo lo relacionado con mi formación y mis intereses en tecnología y ciencia.
+
+![Universidad de La Rioja](ur.png)
 
 ## Sobre mí
 
-Soy un desarrollador web con experiencia en **Ruby**, **JavaScript**, **HTML/CSS** y me encanta trabajar con **Jekyll**. En mi tiempo libre me dedico a crear sitios web estáticos y explorar nuevas herramientas y tecnologías.
+Actualmente estoy cursando el Doble Grado en Ingeniería Informática y Matemáticas, donde combino el pensamiento lógico y formal de las matemáticas con el desarrollo de software y sistemas computacionales. Tengo experiencia trabajando con **Python, Java, Ruby, JavaScript y HTML/CSS**, y me interesa especialmente la programación, los algoritmos y el análisis de datos.
 
-![Imagen personal](https://via.placeholder.com/300)
+En mi tiempo libre disfruto explorando nuevas tecnologías, desarrollando proyectos personales y aprendiendo más sobre desarrollo web con herramientas como **Jekyll**.
 
 ## Mis últimos posts
 
 Aquí están algunos de los artículos más recientes de mi blog:
 
 - [Mi primer post en Jekyll](#)
-- [Cómo crear un sitio web con Gatsby](#)
-- [Aprende a programar en Ruby desde cero](#)
+- [Estructuras de datos y algoritmos](#)
+- [Aplicaciones de las matemáticas en la informática](#)
 
 ## Proyectos destacados
 
-### Proyecto 1: Mi Portafolio
+### Proyecto 1: Portafolio académico
 
-Si estás buscando mi trabajo, visita mi [portafolio en línea](#). He trabajado en varios proyectos interesantes que puedes revisar allí.
+En mi portafolio incluyo trabajos de programación, proyectos de asignaturas y pequeños desarrollos personales relacionados con la informática y las matemáticas.
 
-### Proyecto 2: Blog sobre Desarrollo Web
+### Proyecto 2: Blog técnico
 
-He escrito una serie de tutoriales sobre desarrollo web. Si te interesa aprender más, echa un vistazo a mi [blog completo](#).
+Escribo sobre temas como algoritmos, programación web, estructuras de datos y aplicaciones prácticas de las matemáticas en la computación.
 
 ## Conecta conmigo
 
-¡Me encantaría saber de ti! Puedes seguirme en mis redes sociales o contactarme directamente:
+Puedes encontrarme en mis redes y plataformas de desarrollo:
 
-- [Twitter](https://twitter.com/tuusuario)
-- [GitHub](https://github.com/tuusuario)
-- [LinkedIn](https://linkedin.com/in/tuusuario)
+- [GitHub](https://github.com/isteres)
+- [LinkedIn](www.linkedin.com/in/isaac-teres-espallargas-56bb93325)
 
 ---
 
